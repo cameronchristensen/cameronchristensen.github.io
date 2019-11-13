@@ -1,0 +1,148 @@
+.container {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 960px;
+    height: 550px;
+    margin: 0 auto;
+ 
+ }
+ /* -/MISC BOX FOR ALL PAGES/ */
+ /* -/PORTFOLIO PAGE/ */
+ #firstport {
+    background-image: url(https://www.mindgames.com/uploaded/thumb/hangman300200.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    float: left;
+    clear: both ;
+    margin-right: 20px;
+ }
+ #secondport {
+    background-image: url(https://cdn-static.denofgeek.com/sites/denofgeek/files/styles/main_wide/public/8/58/dragon_ageinq.jpg?itok=LFUFo6y);
+    background-size: contain;
+    background-repeat:no-repeat;
+    width: 150px;
+    height: 150px;
+    float: left;
+ }
+ #thirdport {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1jH5W7MlIh7Gxk912GIvI_nc5drMT6pJI24ignvpx5wU4fImb&s);
+    clear: both;
+    overflow: auto;
+    background-size: contain;
+    background-repeat:no-repeat;
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+ }
+ #forthport {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ22CKWdBAnv62EK2QSP_VjBUxznTzG24sRm2tN3xZtQzGAGeaF&s);
+    background-size: contain;
+    background-repeat:no-repeat;
+    width: 150px;
+    height: 150px;
+    float: left;
+ }
+ #fifthport {
+    background-image: url(https://thenypost.files.wordpress.com/2014/06/rock-paper-4.jpg?quality=90&strip=all);
+    clear: both;
+    background-size: contain;
+    background-repeat:no-repeat;
+    width: 150px;
+    height: 150px;
+    float: left;
+ }
+ #hangman {
+    background: #4aaaa5;
+    text-align: center;
+    margin-top: 75px;
+    height: 21px;
+ }
+ #rpg {
+    background: #4aaaa5;
+    text-align: center;
+ }
+ #Trivia {
+    background: #4aaaa5;
+    text-align: center;
+ }
+ #rutgers {
+    background: #4aaaa5;
+    text-align: center;
+ }
+ #rps {
+    background: #4aaaa5;
+    text-align: center;
+ }
+ /* -/PORTFOLIO PAGE/ */
+ /* -/TOP PART OF PAGE/ */
+ .myname {
+    background-color: #4aaaa5;
+    border: 2px solid black;
+    width: 30%;
+    color: white;
+    text-align: center;
+    display: inline-block;
+ }
+ 
+ /* -/TOP PART OF PAGE/ */
+ /* -/FOOTER/ */
+ .blueline {
+    background-color: #4aaaa5;
+    padding: 2px;
+    clear: both;
+    overflow: auto;
+ }
+ .copyright {
+    background-color: #666666;
+ }
+ ul {
+     float: right;
+
+ }
+ ul li {
+     display: inline;
+     font-size: 25px;
+     
+ }
+ a {
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+ }
+ a:hover {
+     color: #4aaaa5
+
+ }
+ .mypic {
+     float: left;
+     width: 150px;
+     height: 200px;
+     margin-right: 20px;
+     margin-bottom: 20px;
+ }
+ .nav-bar {
+     width: 960px;
+     margin: 0 auto;
+ }
+ h2 {
+     color: #4aaaa5;
+     border-bottom: 2px solid grey;
+     padding: 2px;
+ }
+ header {
+     width: 100%;
+     background-color: #ffffff;
+ }
+ .inside-con {
+     width: 90%;
+     margin: 0 auto;
+ }
+ h1 {
+     font-size: 18px;
+ }
+ 

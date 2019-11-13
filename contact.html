@@ -6,11 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Me</title>
+    <title>Contact Information</title>
     <style>
         body {
             background-image: url(https://images.unsplash.com/photo-1520420253244-9ff6536abf60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
-
         }
     </style>
 </head>
@@ -30,16 +29,31 @@
 
 
     </header>
-
     <section class="container">
-        <section class="inside-con">
             <section id="aboutme">
-                <h2>About Me</h2>
+                <h2>Contact</h2>
                 <section class="greyline">
                 </section>
-                <img class="mypic" src="assets/images/10514159_10152606641276180_634423048508853383_o.jpg" alt="me">
-                <p> Hello and welcome to my portfolio website. My name is Cameron Christensen, I was born in Riverton, Utah and and have lived in Utah my entire life. Currently, I am a government employee looking for a career change in the web development world. 
-                </p>
+                <section class="name">
+                    <h1>Name</h1>
+                    <label for="name"></label>
+                    <input type="text" name="name" id="name" value="John Doe">
+                </section>
+            </section>
+            <section id="email">
+                <h1>Email</h1>
+                <section class="email">
+                    <label for="email"></label>
+                    <input type="text" name="email" id="email" value="example@gmail.com">
+                </section>
+            </section>
+            <section class="message">
+                <h1>Message</h1>
+                <br>
+                <textarea id="message" name="message" rows="10" cols="40"></textarea>
+            </section>
+            <section class="submission">
+                <input type="submit" value="Submit">
             </section>
         </section>
     </section>
