@@ -176,11 +176,13 @@ body {
    padding: 10px;
  }
  .Portfolio {
-    border-right: 1px solid grey;
-    border-collapse: separate;
-    border-spacing: 2px 10px;
- }
- .About-me {
+   border-right: 1px solid grey;
+   border-collapse: separate;
+   padding-right: 8px;
+   border-spacing: 10px 10px;
+  }
+   .About-me {
     border-left: 1px solid grey;
     border-collapse: separate;
+    padding-left: 8px;
  }
